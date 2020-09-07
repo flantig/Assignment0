@@ -12,4 +12,15 @@ public class Square extends Shape{
         return this;
     }
 
+    @Override
+    public void printDimensions() {
+        System.out.println(length);
+        System.out.println(height);
+    }
+
+    @Override
+    public double getArea(){
+        return length*height;
+    }
+
 }
